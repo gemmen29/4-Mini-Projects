@@ -1,0 +1,30 @@
+html , body 
+{
+    overflow: hidden;
+}
+button {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    outline: none;
+    display: inline-block;
+}
+div {
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(207, 56, 19, 0.753);
+}
+
+label {
+    font-family: 'Sagona Book';
+    font-size: 200px;
+    position: absolute;
+    left : 27%;
+    top : 32%;
+    display: inline-block;
+    visibility: hidden;
+    color: rgba(0, 4, 252, 0.836);
+}

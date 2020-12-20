@@ -1,0 +1,58 @@
+html , body {
+    margin:0;
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    margin:auto;
+    /* overflow: hidden; */
+}
+#grid {
+    width : 640px;
+    height: 640px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #B9ADA1;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 8%;
+}
+
+#grid div {
+    width:150px;
+    height: 150px;
+    font-size: 100px;
+    font-weight:bold;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding-top:15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#result {
+    font-size: 120px;
+    background-color: antiquewhite;
+    color: rgb(238, 176, 100);
+    position: relative;
+    top : 35%;
+    left: 8%;
+    width : 100%;
+    text-align: center;
+    visibility: hidden;
+}
+#score-container {
+    font-size: 60px;
+    position: relative;
+    top:-1.3%;
+    text-align: center;
+}
+
+#score-title {
+    background-color:rgba(253, 141, 37, 0.678);
+    color:rgb(250, 249, 249);
+}
+#score {
+    color: rgba(31, 30, 30, 0.822);
+}

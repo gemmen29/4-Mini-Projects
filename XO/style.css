@@ -1,0 +1,46 @@
+body , html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+button {
+    width: 180px;
+    height: 180px;
+    background-color:rgb(232, 236, 175);
+    outline:none; 
+    border:0px
+}
+input#restart {
+    position: relative;
+    left: 42%;
+    top: -5%;
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+}
+label {
+    position: relative;
+    top : -52%;
+    font-size: 70px;
+    background-color: blanchedalmond;
+}
+div {
+    background-image: url(board.png);
+    background-size: contain;
+    width:40%;
+    height:100%;
+    margin: auto;
+    padding: 0;
+    outline:none; 
+}
+.first-column {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+.second-column {
+    margin-right: 20px;
+}

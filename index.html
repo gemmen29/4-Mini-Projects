@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        head,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        div {
+            width: 50%;
+            height: 100%;
+            margin: auto;
+        }
+        
+        table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            font-size: 50px;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            top: 20%;
+        }
+        
+        table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 10px;
+        }
+        
+        table th,
+        td {
+            padding: 12px 15px;
+        }
+        
+        .border-in-right {
+            border-right: 3px solid #dddddd;
+        }
+        
+        .border-down {
+            border-bottom: 3px solid #dddddd;
+        }
+        
+        a {
+            text-decoration: none;
+            background-color: rgba(243, 203, 151, 0.781);
+            color: rgb(33, 143, 240);
+            font-style: italic;
+            padding: 5px
+        }
+        
+        a:active {
+            color: rgb(33, 143, 240);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr class="border-down">
+                    <th>Game</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-down">
+                    <td class="border-in-right">X O</td>
+                    <td><a href="XO/xo.html">Game</a></td>
+                </tr>
+                <tr class="border-down">
+                    <td class="border-in-right">Mix And Match</td>
+                    <td><a href="Mix and Match/mix&match.html">Game</a></td>
+                </tr>
+                <tr class="border-down">
+                    <td class="border-in-right">2048</td>
+                    <td><a href="2048/2048.html">Game</a></td>
+                </tr>
+                <tr>
+                    <td class="border-in-right">Shooting Game</td>
+                    <td><a href="Shooting game/shootingGame.html">Game</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

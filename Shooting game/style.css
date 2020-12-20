@@ -1,0 +1,53 @@
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section #player {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 86%;
+    left: 45%
+}
+
+#parent {
+    width: 60%;
+    height: 99%;
+    margin: auto;
+    background-color: bisque;
+    margin-top: 5px;
+}
+
+.bullet {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    visibility: hidden;
+}
+
+.enemy {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(15, 93, 182);
+    border-radius: 50%;
+    position: relative;
+    left: 46%;
+}
+
+#score-container {
+    position: relative;
+    left: 85%;
+    top: -25%;
+    font-size: 30px;
+}
+
+#score {
+    font-size: 35px;
+}
